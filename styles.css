@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Happy Monkey", cursive;
+ 
+}
+
+#headline {
+  background-image: url("images/thess.jpg");
+  background-size: cover;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 2px black;
+}
+
+h1 {
+  color: white;
+  background: #2b315bef;
+  border: none;
+  border-radius: 8px;
+  padding: 3px 10px;
+  margin-bottom: 5px;
+}
+
+#heading3 {
+  color: white;
+  width: 400px;
+  text-align: center;
+  background: #456cb0;
+  border: none;
+  border-radius: 8px;
+  padding: 3px 10px;
+  margin-top: 30px;
+}
+
+#Presentation {
+  background: #f1faee;
+  height: 378px;
+  margin-top: -20px;
+  color: #1d3557;
+}
+
+#activities {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#activities-heading {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+.img-title {
+  width: 170px;
+  font-weight: bold;
+}
+
+.img-description {
+  width: 170px;
+}
+.footer {
+  height: 394px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  display: flex;
+  background: #a8dadc;
+  width: 400px;
+  height: 294px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0px 6px 0px #1d3557;
+}
+
+#self-description {
+  font-style: italic;
+}
+
+#avatar {
+  width: 180px;
+  height: 230px;
+  border-radius: 10px;
+}
